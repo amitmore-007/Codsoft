@@ -1,0 +1,102 @@
+@font-face {
+    src:url(Imagine\ dragons.jpg)format("truetype");
+    font-family: nos;
+}
+.para1{
+    text-align: center;
+    font-size: 30px;
+    font-family:Arial;
+    color: rgba(6, 70, 70, 0.5);
+}
+.para2{
+    text-align:center;
+    font-size: 80px;
+    font-family: nos;
+    color: rgb(47, 70, 8);
+}
+.menu-bar
+{
+text-align:center;
+background-color: black;
+
+
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   color:floralwhite
+
+}
+.menu-bar ul li
+{
+    font-family: Impact;
+    width: 120px;
+    margin: 15px;
+    padding: 30px;
+    align-items: center;
+    font-size: 1.2rem;
+   
+
+}
+
+.menu-bar ul li:hover
+{
+
+    background: floralwhite;
+    color: #000000;
+    border-radius:3px;
+}
+.para3{
+    font-size: 25px;
+    font-family:Courier;
+    margin: 30px;
+    color:rgb(88, 75, 75);
+    font-weight: 900;
+}
+
+
+
+.lets-go-button{
+    color: floralwhite;
+    background-color: darkcyan;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px; 
+    font-size: 1.3rem;
+}
+.lets-go-button:hover{
+    background-color: rgb(57, 83, 6);
+}
+
+.icon{
+    display: flex;
+    font-size: 3.3rem;
+    margin-top:0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    
+}
+
+.icon a { margin-right:75px; }
+
+.icon :hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    background-color:black;
+    margin-top:28%;
+}
+.p1{
+    color: floralwhite;
+    font-size: larger;
+    padding-bottom: 10px;
+    
+}
